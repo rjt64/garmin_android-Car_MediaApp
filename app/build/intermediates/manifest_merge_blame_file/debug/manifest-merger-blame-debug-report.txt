@@ -1,0 +1,271 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  ~ Copyright 2017 Google Inc. All rights reserved.
+4  ~
+5  ~ Licensed under the Apache License, Version 2.0 (the "License");
+6  ~ you may not use this file except in compliance with the License.
+7  ~ You may obtain a copy of the License at
+8  ~
+9  ~     http://www.apache.org/licenses/LICENSE-2.0
+10  ~
+11-->
+12<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+13    xmlns:dist="http://schemas.android.com/apk/distribution"
+14    package="com.example.android.uamp.next"
+15    android:versionCode="1"
+16    android:versionName="1.0" >
+17
+18    <uses-sdk
+19        android:minSdkVersion="19"
+19-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml
+20        android:targetSdkVersion="28" />
+20-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml
+21
+22    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+22-->[:common] /Users/mausam/Desktop/uamp/common/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:5-77
+22-->[:common] /Users/mausam/Desktop/uamp/common/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:22-74
+23    <uses-permission android:name="android.permission.INTERNET" />
+23-->[:common] /Users/mausam/Desktop/uamp/common/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:5-67
+23-->[:common] /Users/mausam/Desktop/uamp/common/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:22-64
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+24-->[com.google.android.exoplayer:exoplayer-core:2.11.5] /Users/mausam/.gradle/caches/transforms-2/files-2.1/0c7c685c1b90c859d6e8b6f4ac7dc476/jetified-exoplayer-core-2.11.5/AndroidManifest.xml:24:5-79
+24-->[com.google.android.exoplayer:exoplayer-core:2.11.5] /Users/mausam/.gradle/caches/transforms-2/files-2.1/0c7c685c1b90c859d6e8b6f4ac7dc476/jetified-exoplayer-core-2.11.5/AndroidManifest.xml:24:22-76
+25
+26    <application
+26-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:18:5-90:19
+27        android:allowBackup="true"
+27-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:19:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.1.0-beta01] /Users/mausam/.gradle/caches/transforms-2/files-2.1/6b2bcc554177cc78fa7c31f0ca773583/core-1.1.0-beta01/AndroidManifest.xml:22:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+30-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:20:9-43
+31        android:label="@string/app_name"
+31-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:21:9-41
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:22:9-54
+33        android:supportsRtl="true"
+33-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:23:9-35
+34        android:targetSandboxVersion="2"
+34-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:24:9-41
+35        android:testOnly="true"
+36        android:theme="@style/AppTheme" >
+36-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:25:9-40
+37
+38        <!-- Enable instant app support -->
+39        <dist:module dist:instant="true" />
+39-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:28:9-44
+39-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:28:22-41
+40
+41        <!-- Declare that UAMP supports Android Auto. -->
+42        <meta-data
+42-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:31:9-33:59
+43            android:name="com.google.android.gms.car.application"
+43-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:32:13-66
+44            android:resource="@xml/automotive_app_desc" />
+44-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:33:13-56
+45
+46        <!-- Declare that UAMP supports Cast. -->
+47        <meta-data
+47-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:36:9-37:84
+48            android:name="com.google.android.gms.cast.framework.OPTIONS_PROVIDER_CLASS_NAME"
+48-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:36:20-100
+49            android:value="com.example.android.uamp.cast.UampCastOptionsProvider" />
+49-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:37:13-82
+50
+51        <activity android:name="com.example.android.uamp.MainActivity" >
+51-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:39:9-70:20
+51-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:39:19-47
+52            <intent-filter>
+52-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:40:13-43:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:41:17-69
+53-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:41:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:42:17-77
+55-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:42:27-74
+56            </intent-filter>
+57
+58            <!-- App links for http -->
+59            <intent-filter>
+59-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:46:13-56:29
+60                <action android:name="android.intent.action.VIEW" />
+60-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:47:17-69
+60-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:47:25-66
+61
+62                <category android:name="android.intent.category.DEFAULT" />
+62-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:49:17-76
+62-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:49:27-73
+63                <category android:name="android.intent.category.BROWSABLE" />
+63-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:50:17-78
+63-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:50:27-75
+64
+65                <data
+65-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:52:17-55:45
+66                    android:host="example.android.com"
+66-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:53:21-55
+67                    android:pathPattern="/uamp"
+67-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:54:21-48
+68                    android:scheme="http" />
+68-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:55:21-42
+69            </intent-filter>
+70
+71            <!-- App links for https -->
+72            <intent-filter>
+72-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:59:13-69:29
+73                <action android:name="android.intent.action.VIEW" />
+73-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:47:17-69
+73-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:47:25-66
+74
+75                <category android:name="android.intent.category.DEFAULT" />
+75-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:49:17-76
+75-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:49:27-73
+76                <category android:name="android.intent.category.BROWSABLE" />
+76-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:50:17-78
+76-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:50:27-75
+77
+78                <data
+78-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:52:17-55:45
+79                    android:host="example.android.com"
+79-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:53:21-55
+80                    android:pathPattern="/uamp"
+80-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:54:21-48
+81                    android:scheme="https" />
+81-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:55:21-42
+82            </intent-filter>
+83        </activity>
+84
+85        <!--
+86        Declare the common MediaBrowserService for use in the mobile app, including
+87        with the Android Auto app.
+88        -->
+89        <service
+89-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:76:9-88:19
+90            android:name="com.example.android.uamp.media.MusicService"
+90-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:77:13-47
+91            android:enabled="true"
+91-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:78:13-35
+92            android:exported="true" >
+92-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:79:13-36
+93            <intent-filter>
+93-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:82:13-84:29
+94                <action android:name="android.media.browse.MediaBrowserService" />
+94-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:83:17-83
+94-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:83:25-80
+95            </intent-filter>
+96            <intent-filter>
+96-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:85:13-87:29
+97                <action android:name="android.media.action.MEDIA_PLAY_FROM_SEARCH" />
+97-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:86:17-86
+97-->/Users/mausam/Desktop/uamp/app/src/main/AndroidManifest.xml:86:25-83
+98            </intent-filter>
+99        </service>
+100
+101        <!--
+102             MediaSession, prior to API 21, uses a broadcast receiver to communicate with a
+103             media session. It does not have to be this broadcast receiver, but it must
+104             handle the action "android.intent.action.MEDIA_BUTTON".
+105
+106             Additionally, this is used to resume the service from an inactive state upon
+107             receiving a media button event (such as "play").
+108        -->
+109        <receiver android:name="androidx.media.session.MediaButtonReceiver" >
+109-->[:common] /Users/mausam/Desktop/uamp/common/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:9-43:20
+109-->[:common] /Users/mausam/Desktop/uamp/common/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:19-76
+110            <intent-filter>
+110-->[:common] /Users/mausam/Desktop/uamp/common/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:13-42:29
+111                <action android:name="android.intent.action.MEDIA_BUTTON" />
+111-->[:common] /Users/mausam/Desktop/uamp/common/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:17-77
+111-->[:common] /Users/mausam/Desktop/uamp/common/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:25-74
+112            </intent-filter>
+113        </receiver>
+114
+115        <provider
+115-->[:common] /Users/mausam/Desktop/uamp/common/build/intermediates/library_manifest/debug/AndroidManifest.xml:45:9-48:39
+116            android:name="com.example.android.uamp.media.library.AlbumArtContentProvider"
+116-->[:common] /Users/mausam/Desktop/uamp/common/build/intermediates/library_manifest/debug/AndroidManifest.xml:46:13-90
+117            android:authorities="com.example.android.uamp.media.library.provider"
+117-->[:common] /Users/mausam/Desktop/uamp/common/build/intermediates/library_manifest/debug/AndroidManifest.xml:47:13-82
+118            android:exported="true" />
+118-->[:common] /Users/mausam/Desktop/uamp/common/build/intermediates/library_manifest/debug/AndroidManifest.xml:48:13-36
+119
+120        <receiver
+120-->[com.google.android.gms:play-services-cast-framework:18.1.0] /Users/mausam/.gradle/caches/transforms-2/files-2.1/d00b78a436649bfe5011fefe8899920b/jetified-play-services-cast-framework-18.1.0/AndroidManifest.xml:10:9-12:40
+121            android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver"
+121-->[com.google.android.gms:play-services-cast-framework:18.1.0] /Users/mausam/.gradle/caches/transforms-2/files-2.1/d00b78a436649bfe5011fefe8899920b/jetified-play-services-cast-framework-18.1.0/AndroidManifest.xml:11:13-91
+122            android:exported="false" />
+122-->[com.google.android.gms:play-services-cast-framework:18.1.0] /Users/mausam/.gradle/caches/transforms-2/files-2.1/d00b78a436649bfe5011fefe8899920b/jetified-play-services-cast-framework-18.1.0/AndroidManifest.xml:12:13-37
+123
+124        <service
+124-->[com.google.android.gms:play-services-cast-framework:18.1.0] /Users/mausam/.gradle/caches/transforms-2/files-2.1/d00b78a436649bfe5011fefe8899920b/jetified-play-services-cast-framework-18.1.0/AndroidManifest.xml:14:9-16:40
+125            android:name="com.google.android.gms.cast.framework.media.MediaNotificationService"
+125-->[com.google.android.gms:play-services-cast-framework:18.1.0] /Users/mausam/.gradle/caches/transforms-2/files-2.1/d00b78a436649bfe5011fefe8899920b/jetified-play-services-cast-framework-18.1.0/AndroidManifest.xml:15:13-96
+126            android:exported="false" />
+126-->[com.google.android.gms:play-services-cast-framework:18.1.0] /Users/mausam/.gradle/caches/transforms-2/files-2.1/d00b78a436649bfe5011fefe8899920b/jetified-play-services-cast-framework-18.1.0/AndroidManifest.xml:16:13-37
+127        <service
+127-->[com.google.android.gms:play-services-cast-framework:18.1.0] /Users/mausam/.gradle/caches/transforms-2/files-2.1/d00b78a436649bfe5011fefe8899920b/jetified-play-services-cast-framework-18.1.0/AndroidManifest.xml:17:9-19:40
+128            android:name="com.google.android.gms.cast.framework.ReconnectionService"
+128-->[com.google.android.gms:play-services-cast-framework:18.1.0] /Users/mausam/.gradle/caches/transforms-2/files-2.1/d00b78a436649bfe5011fefe8899920b/jetified-play-services-cast-framework-18.1.0/AndroidManifest.xml:18:13-85
+129            android:exported="false" />
+129-->[com.google.android.gms:play-services-cast-framework:18.1.0] /Users/mausam/.gradle/caches/transforms-2/files-2.1/d00b78a436649bfe5011fefe8899920b/jetified-play-services-cast-framework-18.1.0/AndroidManifest.xml:19:13-37
+130
+131        <activity
+131-->[com.google.android.gms:play-services-base:17.1.0] /Users/mausam/.gradle/caches/transforms-2/files-2.1/1bdadf24d103af408925330cb60aa17f/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+132            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+132-->[com.google.android.gms:play-services-base:17.1.0] /Users/mausam/.gradle/caches/transforms-2/files-2.1/1bdadf24d103af408925330cb60aa17f/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+133            android:exported="false"
+133-->[com.google.android.gms:play-services-base:17.1.0] /Users/mausam/.gradle/caches/transforms-2/files-2.1/1bdadf24d103af408925330cb60aa17f/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+134            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+134-->[com.google.android.gms:play-services-base:17.1.0] /Users/mausam/.gradle/caches/transforms-2/files-2.1/1bdadf24d103af408925330cb60aa17f/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+135
+136        <meta-data
+136-->[com.google.android.gms:play-services-basement:17.1.0] /Users/mausam/.gradle/caches/transforms-2/files-2.1/40a712578d61433fcdb67f637f7d5e7f/jetified-play-services-basement-17.1.0/AndroidManifest.xml:23:9-25:69
+137            android:name="com.google.android.gms.version"
+137-->[com.google.android.gms:play-services-basement:17.1.0] /Users/mausam/.gradle/caches/transforms-2/files-2.1/40a712578d61433fcdb67f637f7d5e7f/jetified-play-services-basement-17.1.0/AndroidManifest.xml:24:13-58
+138            android:value="@integer/google_play_services_version" />
+138-->[com.google.android.gms:play-services-basement:17.1.0] /Users/mausam/.gradle/caches/transforms-2/files-2.1/40a712578d61433fcdb67f637f7d5e7f/jetified-play-services-basement-17.1.0/AndroidManifest.xml:25:13-66
+139
+140        <service
+140-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/mausam/.gradle/caches/transforms-2/files-2.1/7beef89a7250f60f834d577c00d066a9/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:29:9-35:19
+141            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+141-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/mausam/.gradle/caches/transforms-2/files-2.1/7beef89a7250f60f834d577c00d066a9/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:30:13-103
+142            android:exported="false" >
+142-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/mausam/.gradle/caches/transforms-2/files-2.1/7beef89a7250f60f834d577c00d066a9/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:31:13-37
+143            <meta-data
+143-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/mausam/.gradle/caches/transforms-2/files-2.1/7beef89a7250f60f834d577c00d066a9/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:32:13-34:39
+144                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+144-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/mausam/.gradle/caches/transforms-2/files-2.1/7beef89a7250f60f834d577c00d066a9/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:33:17-94
+145                android:value="cct" />
+145-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/mausam/.gradle/caches/transforms-2/files-2.1/7beef89a7250f60f834d577c00d066a9/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:34:17-36
+146        </service>
+147        <service
+147-->[com.google.android.datatransport:transport-runtime:2.1.0] /Users/mausam/.gradle/caches/transforms-2/files-2.1/7292db487cda46906c486937833cb54d/jetified-transport-runtime-2.1.0/AndroidManifest.xml:26:9-30:19
+148            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+148-->[com.google.android.datatransport:transport-runtime:2.1.0] /Users/mausam/.gradle/caches/transforms-2/files-2.1/7292db487cda46906c486937833cb54d/jetified-transport-runtime-2.1.0/AndroidManifest.xml:27:13-117
+149            android:exported="false"
+149-->[com.google.android.datatransport:transport-runtime:2.1.0] /Users/mausam/.gradle/caches/transforms-2/files-2.1/7292db487cda46906c486937833cb54d/jetified-transport-runtime-2.1.0/AndroidManifest.xml:28:13-37
+150            android:permission="android.permission.BIND_JOB_SERVICE" >
+150-->[com.google.android.datatransport:transport-runtime:2.1.0] /Users/mausam/.gradle/caches/transforms-2/files-2.1/7292db487cda46906c486937833cb54d/jetified-transport-runtime-2.1.0/AndroidManifest.xml:29:13-69
+151        </service>
+152
+153        <receiver
+153-->[com.google.android.datatransport:transport-runtime:2.1.0] /Users/mausam/.gradle/caches/transforms-2/files-2.1/7292db487cda46906c486937833cb54d/jetified-transport-runtime-2.1.0/AndroidManifest.xml:32:9-34:40
+154            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+154-->[com.google.android.datatransport:transport-runtime:2.1.0] /Users/mausam/.gradle/caches/transforms-2/files-2.1/7292db487cda46906c486937833cb54d/jetified-transport-runtime-2.1.0/AndroidManifest.xml:33:13-132
+155            android:exported="false" />
+155-->[com.google.android.datatransport:transport-runtime:2.1.0] /Users/mausam/.gradle/caches/transforms-2/files-2.1/7292db487cda46906c486937833cb54d/jetified-transport-runtime-2.1.0/AndroidManifest.xml:34:13-37
+156
+157        <provider
+157-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/mausam/.gradle/caches/transforms-2/files-2.1/bdbfeeaa78f79a0ce9be96a1ec69e5ad/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
+158            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+158-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/mausam/.gradle/caches/transforms-2/files-2.1/bdbfeeaa78f79a0ce9be96a1ec69e5ad/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79
+159            android:authorities="com.example.android.uamp.next.lifecycle-process"
+159-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/mausam/.gradle/caches/transforms-2/files-2.1/bdbfeeaa78f79a0ce9be96a1ec69e5ad/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
+160            android:exported="false"
+160-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/mausam/.gradle/caches/transforms-2/files-2.1/bdbfeeaa78f79a0ce9be96a1ec69e5ad/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
+161            android:multiprocess="true" />
+161-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/mausam/.gradle/caches/transforms-2/files-2.1/bdbfeeaa78f79a0ce9be96a1ec69e5ad/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
+162    </application>
+163
+164</manifest>

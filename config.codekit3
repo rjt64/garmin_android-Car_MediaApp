@@ -1223,6 +1223,14 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar",
+		"oF": 0
+		},
 	"/app/build/intermediates/data_binding_artifact/debug/kaptDebugKotlin/com.example.android.uamp-br.bin": {
 		"cB": 0,
 		"ft": 8192,
@@ -2887,6 +2895,22 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"/app/build/intermediates/processed_res/debug/out/output.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/app/build/intermediates/processed_res/debug/out/output-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/app/build/intermediates/processed_res/debug/out/resources-debug.ap_": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/app/build/intermediates/processed_res/debug/out/resources-debug.ap_",
+		"oF": 0
+		},
 	"/app/build/intermediates/project_dex_archive/debug/out/a77c4fcc50af521f3563c6ed2e240014e95b1b29e2c9ebd93c92b8328ed6b77e_0.jar": {
 		"cB": 0,
 		"ft": 8192,
@@ -4509,6 +4533,22 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/app/build/intermediates/res/merged/debug/xml_automotive_app_desc.xml.flat",
+		"oF": 0
+		},
+	"/app/build/intermediates/runtime_symbol_list/debug/R.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/app/build/intermediates/runtime_symbol_list/debug/R.txt",
+		"oF": 0
+		},
+	"/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt",
 		"oF": 0
 		},
 	"/app/build/kotlin/compileDebugKotlin/build-history.bin": {
@@ -17107,25 +17147,6 @@
 		"oAP": "/common/src/test/java/com/example/android/uamp/media/library/MusicSourceTest.kt",
 		"oF": 0
 		},
-	"/CONTRIBUTING.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/CONTRIBUTING.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
 	"/gradle.properties": {
 		"cB": 0,
 		"ft": 8192,
@@ -17307,7 +17328,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 619606101.72352004,
-	"displayValue": "uamp",
+	"displayValue": "garmin_android",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-verd",
 	"iconImageWasSetByUser": 0
