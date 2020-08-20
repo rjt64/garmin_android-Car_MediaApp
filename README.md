@@ -9,7 +9,6 @@ https://github.com/rjt64/garmin_android-Car_MediaApp/blob/master/screenshots/car
 https://github.com/rjt64/garmin_android-Car_MediaApp/blob/master/screenshots/car_signin.png
 
 
-
 2 Android Application : Basic Media Player which can play media and player.
 
 https://github.com/rjt64/garmin_android-Car_MediaApp/blob/master/screenshots/phone_menu.png
