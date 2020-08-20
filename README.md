@@ -7,7 +7,7 @@ I have created Android and Android Automotive OS (Car) apps for Garmin.
 https://github.com/rjt64/garmin_android-Car_MediaApp/blob/master/screenshots/car_main.png
 https://github.com/rjt64/garmin_android-Car_MediaApp/blob/master/screenshots/car_menu.png
 https://github.com/rjt64/garmin_android-Car_MediaApp/blob/master/screenshots/car_signin.png
-https://github.com/rjt64/garmin_android-Car_MediaApp/blob/master/screenshots/car_signin2.png
+
 
 
 2 Android Application : Basic Media Player which can play media and player.
